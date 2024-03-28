@@ -1,2 +1,3 @@
-ps/authentication-libraries/msal.ps1
+ps/authentication-libraries/*
 builds/intunemgmt.ps1
+ps/log/*
