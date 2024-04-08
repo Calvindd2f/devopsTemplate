@@ -1,0 +1,163 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  //-------- Editor configuration --------
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+
+  //-------- Files configuration --------
+  "files.autoGuessEncoding": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "**/Tests/Data*": true
+  },
+
+  //-------- editor configuration --------
+  "editor.defaultFormatter": "ms-vscode.powershell",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.codeActionWidget.includeNearbyQuickFixes": true,
+  "editor.snippetSuggestions": "inline",
+    "editor.experimental.asyncTokenization": true,
+    "editor.semanticTokenColorCustomizations":{
+      "enabled": true,
+      "rules": {
+        "type": "#4EC9B0",
+        "parameter": "#ffffff",
+        "comment": "#0b8a00",
+        "variable": "#00ccff",
+        "string": "#ffae00",
+        "number": "#ff6600",
+        "parenthesis": "#ffae00",
+        "punctuation": "#ff0000",
+        "operator": "#969696",
+        "keyword": "#C586C0",
+        "function": "#fffd7c",
+        "constructor": "#acacac",
+        "class": "#d86bb4",
+        "interface": "#ffffff",
+        "enum": "#51ff00",
+        "enumMember": "#ffffff",
+        "module": "#00ff6a",
+        "namespace": "#ffffff",
+        "typeParameter": "#ffffff",
+        //"regex": "#ff0000",
+        "label": "#ffffff",
+        "attribute": "#ffffff",
+        "macro": "#ffffff",
+        //"variable.readonly": "#ff0000",
+        "property": "#008cff",
+        "method": "#117029" ,
+        //"jsonComment": "#3a3a3a",
+        //"razorComment": "#164e97",
+        //"regexComment": "#ae00ff"
+        //"*.static": "#ff0000",
+        //"*.typeHint": "#ff0000"
+        "curlybrace": "#002fff",
+        "bracket": "#ffffff",
+        "struct": "#ff0000",
+        "constant": "#ff0000",
+        "builtinConstant": "#ff0000",
+        "selfParameter": "#ff0000",
+        "global": "#ff0000",
+        "builtinType": "#ff0000",
+        "builtinFunction": "#ff0000",
+        "*.abstract": "#ff0000",
+        "stringconstantexpression": "#ff0000",
+        "*.static": "#ff0000",
+        "*.declaration": "#ff0000",
+        "*.typeHint": "#ff0000",
+        "*.overridden": "#ff0000",
+        "*.builtin": "#ff0000",
+        "*.async": "#ff0000",
+        "*.documentation": "#ff0000",
+        "*.readonly": "#ff0000"
+      }
+    },
+  //-------- PowerShell configuration --------
+  "powershell.codeFormatting.alignPropertyValuePairs": true,
+  "powershell.codeFormatting.preset": "Allman",
+  "powershell.scriptAnalysis.settingsPath": "./ScriptAnalyzerSettings.psd1",
+  "poshProTools.checkForModuleUpdates": true,
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.pester.codeLens": true,
+  "[powershell]": {
+      "editor.defaultFormatter": "ms-vscode.powershell",
+      "editor.semanticHighlighting.enabled": true,
+      "editor.codeActionWidget.includeNearbyQuickFixes": true,
+      "editor.snippetSuggestions": "inline",
+      "editor.experimental.asyncTokenization": true,
+      "editor.semanticTokenColorCustomizations":{
+        "enabled": true,
+        "rules": {
+          "type": "#4EC9B0",
+          "parameter": "#ffffff",
+          "comment": "#0b8a00",
+          "variable": "#00ccff",
+          "string": "#ffae00",
+          "number": "#ff6600",
+          "parenthesis": "#ffae00",
+          "punctuation": "#ff0000",
+          "operator": "#969696",
+          "keyword": "#C586C0",
+          "function": "#fffd7c",
+          "constructor": "#acacac",
+          "class": "#d86bb4",
+          "interface": "#ffffff",
+          "enum": "#51ff00",
+          "enumMember": "#ffffff",
+          "module": "#00ff6a",
+          "namespace": "#ffffff",
+          "typeParameter": "#ffffff",
+          //"regex": "#ff0000",
+          "label": "#ffffff",
+          "attribute": "#ffffff",
+          "macro": "#ffffff",
+          //"variable.readonly": "#ff0000",
+          "property": "#008cff",
+          "method": "#117029" ,
+          //"jsonComment": "#3a3a3a",
+          //"razorComment": "#164e97",
+          //"regexComment": "#ae00ff"
+          //"*.static": "#ff0000",
+          //"*.typeHint": "#ff0000"
+          "curlybrace": "#002fff",
+          "bracket": "#ffffff",
+          "struct": "#ff0000",
+          "constant": "#ff0000",
+          "builtinConstant": "#ff0000",
+          "selfParameter": "#ff0000",
+          "global": "#ff0000",
+          "builtinType": "#ff0000",
+          "builtinFunction": "#ff0000",
+          "*.abstract": "#ff0000",
+          "stringconstantexpression": "#ff0000",
+          "*.static": "#ff0000",
+          "*.declaration": "#ff0000",
+          "*.typeHint": "#ff0000",
+          "*.overridden": "#ff0000",
+          "*.builtin": "#ff0000",
+          "*.async": "#ff0000",
+          "*.documentation": "#ff0000",
+          "*.readonly": "#ff0000"
+      }
+  },
+  "editor.copyWithSyntaxHighlighting": true,
+
+
+  "sonarlint.connectedMode.project": {
+      "connectionId": "http://192.168.1.121:9000/",
+      "projectKey": "sqps,"
+  },
+
+
+  //-------- Language configuration --------
+  "[json]": {
+    "editor.tabSize": 2
+  },
+
+  "[xml]": {
+    "editor.tabSize": 2
+  }
+},
+"azureAutomation.directory.basePath": "c:\\Users\\c"
+}
